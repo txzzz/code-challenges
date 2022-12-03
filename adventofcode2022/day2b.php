@@ -23,7 +23,7 @@ function getScoreIfWin($opponent) {
 	return ++$opponent + 6;
 }
 
-$rounds = explode("\n", file_get_contents('day2.txt'));
+$rounds = explode("\n", file_get_contents('data/day2.txt'));
 
 $myTotalScore = 0;
 for($i = 0; $i < count($rounds); $i++) {

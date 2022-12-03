@@ -1,6 +1,6 @@
 <?php
 
-$pieces = file_get_contents('day1.txt');
+$pieces = file_get_contents('data/day1.txt');
 $pieces = explode("\n", $pieces);
 
 $deer = 0;

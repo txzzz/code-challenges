@@ -21,7 +21,7 @@ function isWinner($a, $b) {
 	return false;
 }
 
-$rounds = explode("\n", file_get_contents('day2.txt'));
+$rounds = explode("\n", file_get_contents('data/day2.txt'));
 
 $myTotalScore = 0;
 $opponentTotalScore = 0;

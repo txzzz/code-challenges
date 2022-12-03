@@ -5,7 +5,7 @@ function getPriority($type) {
 	return strpos($chars, $type) + 1;
 }
 
-$elves = explode("\n", trim(file_get_contents('day3.txt')));
+$elves = explode("\n", trim(file_get_contents('data/day3.txt')));
 
 $sum = 0;
 while(count($elves)) {
